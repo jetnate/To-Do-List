@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 import List from './components/list';
 
@@ -39,7 +39,7 @@ export default class App extends React.Component {
     <div>
     <div className="header">
       <div className="wrapper">
-        <img src="../photos/r2h-logo.jpeg"/>
+        <img src="../photos/r2h-logo.jpeg" alt= "road to hire" />
         <p className="title">Road To Hire</p>
       </div>
 
